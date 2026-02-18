@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer une adresse</title>
+</head>
+<body>
+    <h1>Créer une adresse</h1>
+
+    <form action="create-address.php" method="post">
+        <label for="street">Rue :</label>
+        <input type="text" name="street" id="street" required>
+
+        <label for="city">Ville :</label>
+        <input type="text" name="city" id="city" required>
+
+        <label for="zipcode">Code postal :</label>
+        <input type="text" name="zipcode" id="zipcode" required>
+
+        <button type="submit">Créer l'adresse</button>
+    </form>
+</body>
+</html>
