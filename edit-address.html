@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier une adresse</title>
+</head>
+<body>
+    <h1>Modifier une adresse</h1>
+
+    <form action="edit-address.php" method="post">
+        <label for="id">ID de l'adresse :</label>
+        <input type="number" name="id" id="id" required>
+
+        <label for="street">Rue :</label>
+        <input type="text" name="street" id="street" required>
+
+        <label for="city">Ville :</label>
+        <input type="text" name="city" id="city" required>
+
+        <label for="zipcode">Code postal :</label>
+        <input type="text" name="zipcode" id="zipcode" required>
+
+        <button type="submit">Modifier l'adresse</button>
+    </form>
+</body>
+</html>
